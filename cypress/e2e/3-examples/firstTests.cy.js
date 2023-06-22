@@ -12,13 +12,18 @@ describe(`A collection of first cypress tests`, () => {
     })
 
     beforeEach(`Login`, () => {
+        // This my comment - xola ....
         cy.sessionLogin(process.env.email, process.env.password, `admin`);
     })
 
     afterEach(`Remove items from cart`, () => {
         cy.visit(`/cart`);      
         cy.visit(`/cart`);
+<<<<<<< HEAD
         cy.visit(`conflict please`);
+=======
+        cy.visit(`/cart`);
+>>>>>>> 81ccbf850c16ab2e18019a043032624abaaf8461
        cy.clearCart();
     })
 
