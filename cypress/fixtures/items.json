@@ -1,0 +1,20 @@
+[
+    {
+        "productSection":"desktops",
+        "productName":"Build your own computer",
+        "quantity":1,
+        "options":{
+            "hardrive": "320 GB",
+            "ram":"2 GB "
+        }
+    },
+    {
+        "productSection":"desktops",
+        "productName":"Build your own computer",
+        "quantity":3,
+        "options":{
+            "hardrive": "320 GB",
+            "ram":"4GB [+20.00] "
+        }
+    }
+]
