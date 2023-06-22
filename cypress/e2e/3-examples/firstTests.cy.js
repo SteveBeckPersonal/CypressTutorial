@@ -20,6 +20,7 @@ describe(`A collection of first cypress tests`, () => {
         cy.visit(`/cart`);      
         cy.visit(`/cart`);
         cy.visit(`/cart`);
+        cy.visit(`/cart`);
        cy.clearCart();
     })
 
