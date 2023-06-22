@@ -19,11 +19,7 @@ describe(`A collection of first cypress tests`, () => {
     afterEach(`Remove items from cart`, () => {
         cy.visit(`/cart`);      
         cy.visit(`/cart`);
-<<<<<<< HEAD
-        cy.visit(`conflict please`);
-=======
         cy.visit(`/cart`);
->>>>>>> 81ccbf850c16ab2e18019a043032624abaaf8461
        cy.clearCart();
     })
 
@@ -34,6 +30,7 @@ describe(`A collection of first cypress tests`, () => {
     items.forEach((item) => {
         it(`Purchase ${item.quantity}x ${item.productName}`, () => {
             cy.visit(`/${item.productSection}`);
+            // A lovely interesting message
             cy.contains(item.productName).click({force:true});
             cy.get('label').contains(`${item.options.hardrive}`).prev('input').check();
             cy.get('.qty-input').clear().type(item.quantity);
