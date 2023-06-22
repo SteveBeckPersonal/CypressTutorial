@@ -23,4 +23,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+<<<<<<< HEAD
 //Stephen Beck
+=======
+// Xola
+>>>>>>> 0256e5d52c34885a858ada189c2b7a4ec17ff144
