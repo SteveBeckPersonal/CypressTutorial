@@ -18,7 +18,7 @@ describe(`A collection of first cypress tests`, () => {
 
     afterEach(`Remove items from cart`, () => {
         cy.visit(`/cart`);      
-        
+        cy.visit(`/cart`);
        cy.clearCart();
     })
 
