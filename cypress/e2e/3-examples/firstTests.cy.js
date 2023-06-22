@@ -12,6 +12,7 @@ describe(`A collection of first cypress tests`, () => {
     })
 
     beforeEach(`Login`, () => {
+        // This my comment - xola ....
         cy.sessionLogin(process.env.email, process.env.password, `admin`);
     })
 
